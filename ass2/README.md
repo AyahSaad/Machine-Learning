@@ -1,4 +1,4 @@
- Assignment #2 – Polynomial & Logistic Regression
+# Assignment #2 – Polynomial & Logistic Regression
 
 This project demonstrates the implementation of **Polynomial Regression**, **Ridge Regression**, and **Logistic Regression (Linear & Quadratic Decision Boundaries)** using Python and scikit-learn.
 
