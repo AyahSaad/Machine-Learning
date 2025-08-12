@@ -44,11 +44,3 @@ This assignment demonstrates:
 
 📖 [View README](./ass2/README.md)
 
----
-
-## 🚀 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Machine-Learning.git
-   cd Machine-Learning
