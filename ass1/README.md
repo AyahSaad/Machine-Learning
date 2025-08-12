@@ -1,4 +1,4 @@
-# Assignment 1 – Polynomial Regression (Cars Dataset)
+# Assignment #1 – Polynomial Regression (Cars Dataset)
 
 This project explores a dataset of cars and uses various data analysis and regression techniques to understand and model the relationship between features such as horsepower and miles-per-gallon (MPG).
 
