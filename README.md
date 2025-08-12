@@ -1,75 +1,54 @@
-# 📊 Machine Learning Assignment #2 – Polynomial & Logistic Regression
+# 🤖 Machine Learning Projects
 
-This project demonstrates the implementation of **Polynomial Regression**, **Ridge Regression**, and **Logistic Regression (Linear & Quadratic Decision Boundaries)** using Python and scikit-learn.
+This repository contains coursework and assignments related to **Machine Learning**, covering essential concepts such as data preprocessing, regression (linear, polynomial, ridge), logistic regression, and evaluation techniques.
 
-> ✅ **Note:** This notebook was originally developed in Google Colab.  
-> 📌 Make sure your Google Drive contains the following 3 CSV files:
-- `data_reg.csv`
-- `train_cls.csv`
-- `test_cls.csv`
+> 📍 All work was completed in Google Colab and Python using standard data science libraries.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-- **Data Preparation**
-  - Mount Google Drive
-  - Read dataset `data_reg.csv`
-  - Split into training (120), validation (40), and testing (40)
+### 🔹 [`ass1`](./ass1)
+> **Title**: *Car Fuel Efficiency & Regression Models*
 
-- **3D Data Visualization**
-  - Scatter plot showing the 3 sets in 3D using x1, x2, and y.
+In this assignment, we:
+- Explored and visualized the car dataset (`cars.csv`)
+- Handled missing values using appropriate imputation methods
+- Analyzed fuel economy trends across different countries
+- Built regression models:
+  - Linear Regression (closed-form & gradient descent)
+  - Polynomial Regression
+- Visualized relationships using scatter plots and histograms
 
-- **Polynomial Regression**
-  - Trained using polynomial degrees from 1 to 10.
-  - Validation MSE plotted to find the optimal degree.
-  - Degree 2 achieved the best performance (MSE ≈ 0.1799).
+📎 **Key Techniques**:  
+`pandas`, `matplotlib`, `seaborn`, `numpy`, `scipy`, linear algebra
 
-- **Ridge Regression**
-  - Applied on degree 8 polynomial.
-  - Tested different regularization parameters: `[0.001, 0.005, 0.01, 0.1, 10]`
-  - Best performance at `alpha = 0.01` with MSE ≈ 0.2099.
-
-- **Logistic Regression**
-  - **Linear Decision Boundary**:
-    - Applied on `train_cls.csv` and `test_cls.csv`
-    - Accuracy, precision, recall, and F1-score computed.
-    - Decision boundary plotted for both train and test sets.
-  
-  - **Quadratic Decision Boundary**:
-    - Polynomial features (degree 2) used.
-    - Model retrained and evaluated similarly.
-    - Decision boundary shows improved separation of classes.
-
-- **Model Evaluation**
-  - Discussion on overfitting vs. underfitting between linear and quadratic models.
+📖 [View README](./ass1/README.md)
 
 ---
 
-## 🔧 Technologies Used
+### 🔹 [`ass2`](./ass2)
+> **Title**: *Polynomial & Logistic Regression with Model Evaluation*
 
-- Python
-- Google Colab
-- pandas, numpy, matplotlib
-- scikit-learn
+This assignment demonstrates:
+- Polynomial regression with train/val/test split
+- Ridge regression with regularization tuning
+- Logistic regression with:
+  - Linear decision boundary
+  - Quadratic decision boundary (using polynomial features)
+- Evaluation metrics: accuracy, precision, recall, F1-score
+- Discussion on overfitting and model generalization
+
+📎 **Key Techniques**:  
+`sklearn`, `PolynomialFeatures`, `LogisticRegression`, `MSE`, `visualization`
+
+📖 [View README](./ass2/README.md)
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Use
 
-1. Open the notebook in [Google Colab](https://colab.research.google.com/)
-2. Make sure your Google Drive is mounted and includes the required files.
-3. Run all cells step-by-step to:
-   - Load and visualize the data
-   - Train and evaluate models
-   - Plot results
-
----
-
-
-## 🧠 Notes
-
-- Polynomial regression of high degree may lead to overfitting.
-- Regularization helps control model complexity.
-- Quadratic logistic regression improved performance compared to the linear version.
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/Machine-Learning.git
+   cd Machine-Learning
